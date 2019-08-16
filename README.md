@@ -6,8 +6,8 @@
 # Pendancias CSS
 
 `ICONES DO SOCIAIS`
-- Arrumar uma forma de com nth-child e hover
-  Uma forma de de mudar a cor de cada icone quando o mause
+- Arrumar uma forma de fazer com  que nth-child e hover
+  Uma forma de mudar a cor de cada icone quando o mause
   por cima.
 
 - importar algumas fonts padrões para o site e defini-las
