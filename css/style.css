@@ -33,8 +33,14 @@ nav .menu ul li a {
   text-transform: uppercase;
 }
 nav .menu ul li:nth-child(5) {
-  border: 1px solid grey;
+  cursor: pointer;
+  border: 2px solid #9a6d62;
+  color: #9a6d62;
   border-radius: 20px;
+}
+nav .menu ul li:nth-child(5) a {
+  color: #9a6d62;
+  font-weight: 600;
 }
 nav .bars {
   display: none;
@@ -168,17 +174,19 @@ nav .bars .border div {
   .nav-add {
     display: block;
     height: 250px;
-    transition: 1s ease-in;
+    transition: 1s;
   }
 
   .nav-remove {
     display: none;
     height: 0px;
-    transition: 1s ease-in;
+    transition: 1s;
   }
 
   nav .menu {
-    transition: 1s ease-in;
+    transition: 1s;
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
   nav .menu ul {
     display: grid;

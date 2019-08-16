@@ -7,7 +7,7 @@
             const links = document.querySelector(".menu");
             
             links.classList.remove("nav-remove");
-            links.classList.add("nav-add");
+            links.classList.toggle("nav-add");
             console.log("Funcioando");
             ocultar()
         });
@@ -17,7 +17,7 @@
         bars.addEventListener("click", () => {
             const links = document.querySelector(".menu");
             
-            links.classList.add("nav-remove");
+            links.classList.toggle("nav-remove");
             links.classList.remove("nav-add");
             console.log("Funcioando");
             expandir()
