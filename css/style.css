@@ -8,6 +8,7 @@
 
 body {
   background-color: #fff;
+  overflow: hidden;
 }
 
 nav {
@@ -37,13 +38,19 @@ nav .menu ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-gap: 0px;
+  grid-template-columns: 10% auto auto auto;
+  grid-template-rows: 10% auto 30%;
   padding: 20px;
   padding: 2% 2% 2% 2%;
 }
 .banner .cont {
-  width: 500px;
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  justify-content: center;
+  align-items: center;
 }
 .banner .cont h1 {
   text-align: center;
@@ -66,11 +73,12 @@ nav .menu ul li a {
   font-size: 1.2em;
 }
 .banner .cont .btn {
-  width: 300px;
+  width: 200px;
   border: none;
   padding: 20px 20px;
   border-radius: 20px;
   margin-top: 10px;
+  margin-left: 20px;
   color: white;
   font-weight: 600;
   cursor: pointer;
@@ -105,7 +113,11 @@ nav .menu ul li a {
   font-size: 1.3em;
 }
 .banner .sociais {
-  width: 10%;
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: left;
+  align-items: right;
 }
 .banner .sociais ul {
   display: grid;

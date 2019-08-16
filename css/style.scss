@@ -10,6 +10,7 @@ $font-01:'Shadows Into Light', cursive;
 
 body{
     background-color: #fff;
+    overflow: hidden;
 }
 
 nav{
@@ -40,13 +41,18 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: 10% auto auto auto;
+    grid-template-rows: 10% auto 30%;
     padding: 20px;
-    // background: linear-gradient(#f1f1f1, #fff);
     padding:2% 2% 2% 2%;
     .cont{
-        width: 500px;
+        display: grid;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        justify-content: center;
+        align-items: center;
         h1 {
             text-align: center;
             b{
@@ -68,11 +74,12 @@ nav{
             font-size: 1.2em;
         }
         .btn{
-            width:300px;
+            width:200px;
             border:none;
             padding: 20px 20px;
             border-radius: 20px;
             margin-top:10px;
+            margin-left:20px;
             color:white;
             font-weight: 600;
             cursor: pointer;
@@ -108,7 +115,11 @@ nav{
         }
     }
     .sociais{
-        width: 10%;
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        justify-content: left;
+        align-items: right;
         ul{
             display: grid;
             list-style: none;
