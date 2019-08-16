@@ -14,7 +14,7 @@
 
 - Deixar o menu de forma responsiva
 
-- Detixar o banner de forma responsiva
+- Deixar o banner de forma responsiva
 
 # Pendencia Javascript
 
@@ -22,5 +22,5 @@
 - Baixar o arquivo JS do smooth e ler a documentacão
   e usar na nossa aplicação, ele serve para o scroll
   suave do menu.
-  
+
 - Colocar a toggle do menu menos agresiva
