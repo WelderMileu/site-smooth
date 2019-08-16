@@ -22,3 +22,5 @@
 - Baixar o arquivo JS do smooth e ler a documentacão
   e usar na nossa aplicação, ele serve para o scroll
   suave do menu.
+  
+- Colocar a toggle do menu menos agresiva

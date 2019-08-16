@@ -174,15 +174,17 @@ nav{
 @media only screen and(max-width:600px){
     .nav-add{
         display:block;
-        transition:1s;
+        height: 250px;
+        transition:1s ease-in;
     }    
     .nav-remove{
         display:none;
-        transition: 1s;
+        height: 0px;
+        transition: 1s ease-in;
     }
     nav{
         .menu{
-            transition: 1s;
+            transition: 1s ease-in;
             ul{
                display: grid;
             //    height: 0;
