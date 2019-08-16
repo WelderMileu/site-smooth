@@ -181,15 +181,72 @@ nav{
 .body{
     margin:10%;
     .info{
-        display: flex;
+        display: grid;
+        grid-template-areas: auto auto auto auto auto;
+        grid-row-gap:0;
+        grid-template-rows: 10% auto 30%; 
         text-align: center;
         // background-color: #f6f6f6;
         // flex-wrap: wrap; // adicionar no responsivo
+        div:nth-child(1){
+            display: grid;
+            width: 100%;
+            grid-column-start: 1;
+            grid-column-end: 5;
+            margin-bottom: 20px;
+            justify-content: center;
+            align-items: center;
+            h1{
+                font-size: 5em;
+                text-transform: uppercase;
+            }
+            &:before{
+                content: '';
+                width: 200px;
+                height: 20px;
+                background: #000;
+                border-radius:30px;
+                margin-left:130px;
+                transform: translateY(157px)
+            }
+            &:after{
+                content: '';
+                width: 500px;
+                height: 2px;
+                background: #000;
+                border-radius:30px;
+                margin-top:50px;
+            }
+        }
+        div:nth-child(2){
+            display: grid;
+            width: 100%;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            margin-bottom: 20px;
+        }
+        div:nth-child(3){
+            display: grid;
+            width: 100%;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            margin-bottom: 20px;
+        }
+        div:nth-child(4){
+            display: grid;
+            width: 100%;
+            grid-column-start: 3;
+            grid-column-end: 3;
+            margin-bottom: 20px;
+        }
         div{
             padding: 20px;
             display: grid;
             justify-content: space-around;
             align-items: center;
+            p{
+                font-size: 1.2em;
+            }
             span{
                 height: 200px;
             }
@@ -197,9 +254,19 @@ nav{
                 margin-bottom:20px;
             }
             button{
+                width: 300px;
                 border:none;
-                padding:10px 50px;
-                margin-top: 15px; 
+                padding:15px 50px;
+                margin-top: 15px;
+                background-color: #1da1f2;
+                border-radius: 20px;
+                color: #fff;
+                font-weight: 600;
+                font-size: 1.2em;
+                cursor: pointer;
+                i{
+                    padding-left: 10px;
+                }
             }
         }
     }
