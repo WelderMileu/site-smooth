@@ -8,7 +8,6 @@
             
             links.classList.remove("nav-remove");
             links.classList.toggle("nav-add");
-            console.log("Funcioando");
             ocultar()
         });
     }
@@ -19,7 +18,6 @@
             
             links.classList.toggle("nav-remove");
             links.classList.remove("nav-add");
-            console.log("Funcioando");
             expandir()
         });
     }

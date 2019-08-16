@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
+
 $font-01:'Shadows Into Light', cursive;
+$font-02: 'Cabin Sketch', cursive;
 
 *{
     margin: 0;
@@ -103,7 +106,7 @@ nav{
         .btn{
             width:200px;
             border:none;
-            padding: 20px 20px;
+            padding: 15px 2px;
             border-radius: 20px;
             margin-top:10px;
             margin-left:20px;
