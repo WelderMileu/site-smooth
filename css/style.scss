@@ -169,12 +169,25 @@ nav{
     }
 }
 
+
+
 @media only screen and(max-width:600px){
+    .nav-add{
+        display:block;
+        transition:1s;
+    }    
+    .nav-remove{
+        display:none;
+        transition: 1s;
+    }
     nav{
         .menu{
-            display: none;
+            transition: 1s;
             ul{
                display: grid;
+            //    height: 0;
+            //    overflow: hidden;
+               transition:1s;
                li{
                    margin-top:10px;
                }

@@ -165,11 +165,22 @@ nav .bars .border div {
 }
 
 @media only screen and (max-width: 600px) {
-  nav .menu {
+  .nav-add {
+    display: block;
+    transition: 1s;
+  }
+
+  .nav-remove {
     display: none;
+    transition: 1s;
+  }
+
+  nav .menu {
+    transition: 1s;
   }
   nav .menu ul {
     display: grid;
+    transition: 1s;
   }
   nav .menu ul li {
     margin-top: 10px;
