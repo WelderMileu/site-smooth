@@ -168,6 +168,12 @@ nav .bars .border div {
   nav .menu {
     display: none;
   }
+  nav .menu ul {
+    display: grid;
+  }
+  nav .menu ul li {
+    margin-top: 10px;
+  }
   nav .bars {
     display: block;
   }
