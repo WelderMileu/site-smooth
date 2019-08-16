@@ -9,7 +9,6 @@
 
 body {
   background-color: #fff;
-  overflow: hidden;
 }
 
 nav {
@@ -169,6 +168,31 @@ nav .bars .border div {
 }
 .banner .sociais ul li a i:hover {
   transform: scale(2);
+}
+
+.body {
+  margin: 10%;
+}
+.body .info {
+  display: flex;
+  text-align: center;
+}
+.body .info div {
+  padding: 20px;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+}
+.body .info div span {
+  height: 200px;
+}
+.body .info div img {
+  margin-bottom: 20px;
+}
+.body .info div button {
+  border: none;
+  padding: 10px 50px;
+  margin-top: 15px;
 }
 
 @media only screen and (max-width: 600px) {

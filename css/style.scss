@@ -13,7 +13,7 @@ $font-02: 'Cabin Sketch', cursive;
 
 body{
     background-color: #fff;
-    overflow: hidden;
+    // overflow: hidden;
 }
 
 nav{
@@ -178,7 +178,32 @@ nav{
     }
 }
 
-
+.body{
+    margin:10%;
+    .info{
+        display: flex;
+        text-align: center;
+        // background-color: #f6f6f6;
+        // flex-wrap: wrap; // adicionar no responsivo
+        div{
+            padding: 20px;
+            display: grid;
+            justify-content: space-around;
+            align-items: center;
+            span{
+                height: 200px;
+            }
+            img{
+                margin-bottom:20px;
+            }
+            button{
+                border:none;
+                padding:10px 50px;
+                margin-top: 15px; 
+            }
+        }
+    }
+}
 
 @media only screen and(max-width:600px){
     .nav-add{
