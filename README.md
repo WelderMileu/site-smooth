@@ -12,6 +12,9 @@
 
 - importar algumas fonts padrões para o site e defini-las
 
+- Deixar o menu de forma responsiva
+
+- Detixar o banner de forma responsiva
 
 # Pendencia Javascript
 

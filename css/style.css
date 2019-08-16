@@ -32,6 +32,10 @@ nav .menu ul li a {
   font-weight: 500;
   text-transform: uppercase;
 }
+nav .menu ul li:nth-child(5) {
+  border: 1px solid grey;
+  border-radius: 20px;
+}
 
 .banner {
   background-image: url("../img/praia.jpg");
