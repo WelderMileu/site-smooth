@@ -10,6 +10,8 @@
   Uma forma de de mudar a cor de cada icone quando o mause
   por cima.
 
+- importar algumas fonts padrões para o site e defini-las
+
 
 # Pendencia Javascript
 
