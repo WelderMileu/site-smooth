@@ -36,6 +36,23 @@ nav .menu ul li:nth-child(5) {
   border: 1px solid grey;
   border-radius: 20px;
 }
+nav .bars {
+  display: none;
+  cursor: pointer;
+}
+nav .bars .border {
+  border: 1px solid grey;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+nav .bars .border div {
+  width: 20px;
+  height: 3px;
+  background-color: grey;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 20px;
+}
 
 .banner {
   background-image: url("../img/praia.jpg");
@@ -91,10 +108,11 @@ nav .menu ul li:nth-child(5) {
 }
 .banner .cont .buscar {
   display: flex;
+  width: 100%;
 }
 .banner .cont .buscar input[type=text] {
   border: none;
-  width: 300px;
+  width: 100%;
   padding: 10px 20px;
   border-radius: 20px;
   margin-bottom: 80px;
@@ -144,6 +162,22 @@ nav .menu ul li:nth-child(5) {
 }
 .banner .sociais ul li a i:hover {
   transform: scale(2);
+}
+
+@media only screen and (max-width: 600px) {
+  nav .menu {
+    display: none;
+  }
+  nav .bars {
+    display: block;
+  }
+
+  .banner .cont p {
+    width: 75%;
+  }
+  .banner .cont .buscar {
+    width: 75%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
