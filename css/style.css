@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "calibri", sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+nav {
+  background-color: #f1f1f1;
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0px solid grey;
+}
+nav .menu ul {
+  display: flex;
+}
+nav .menu ul li {
+  list-style: none;
+  padding: 10px;
+}
+nav .menu ul li a {
+  color: grey;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.banner {
+  background-image: url("../img/praia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding: 2% 2% 2% 2%;
+}
+.banner .cont {
+  width: 500px;
+}
+.banner .cont h1 {
+  text-align: center;
+}
+.banner .cont h1 b {
+  font-family: "Shadows Into Light", cursive, sans-serif;
+  color: grey;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+}
+.banner .cont p {
+  width: 350px;
+  margin: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2em;
+}
+.banner .cont .btn {
+  width: 300px;
+  border: none;
+  padding: 20px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.2em;
+  background: linear-gradient(-10deg, #0026ff, #ff0077, #ffe600);
+}
+.banner .cont .buscar {
+  display: flex;
+}
+.banner .cont .buscar input[type=text] {
+  border: none;
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 80px;
+  font-size: 1em;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.banner .cont .buscar button {
+  border: none;
+  padding: 10px 30px;
+  width: 35px;
+  height: 39px;
+  background: #fff;
+  color: grey;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+.banner .cont .buscar button i {
+  font-size: 1.3em;
+}
+.banner .sociais {
+  width: 10%;
+}
+.banner .sociais ul {
+  display: grid;
+  list-style: none;
+  justify-content: left;
+  align-items: center;
+  margin-top: 350px;
+}
+.banner .sociais ul li {
+  padding: 0px;
+}
+.banner .sociais ul li a {
+  text-decoration: none;
+}
+.banner .sociais ul li a i {
+  color: #fff;
+  padding: 5px;
+  font-size: 1.5em;
+  transition: 0.5s;
+}
+.banner .sociais ul li a i:hover {
+  transform: scale(2);
+  color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */
