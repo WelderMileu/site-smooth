@@ -24,3 +24,7 @@
   suave do menu.
 
 - Colocar a toggle do menu menos agresiva
+
+# Pendencia HTML
+
+- Fazer a parte dos colaborados a baixo dos parceiros
