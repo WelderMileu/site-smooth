@@ -16,6 +16,8 @@
 
 - Deixar o banner de forma responsiva
 
+- Arrumar a parte dos colaboradores 
+
 # Pendencia Javascript
 
 `SMOOTH-SCROOL JS`

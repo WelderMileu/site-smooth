@@ -278,6 +278,7 @@ nav .bars .border div {
   background-color: #fff;
   border-radius: 20px;
   padding-bottom: 20px;
+  width: 100%;
 }
 .body .colaboradores img {
   width: 100px;
@@ -320,7 +321,7 @@ nav .bars .border div {
 .body .colaboradores .desc .cli2 {
   display: flex;
   border-left: 2px solid black;
-  width: 400px;
+  width: 100px;
   height: 200px;
   padding: 20px;
 }
@@ -366,7 +367,7 @@ nav .bars .border div {
   }
   .colaboradores .desc {
     flex-wrap: wrap;
-    width: 300px;
+    width: 100%;
     overflow: hidden;
     margin-left: 0px;
   }

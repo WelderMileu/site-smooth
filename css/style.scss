@@ -290,6 +290,7 @@ nav{
         background-color: #fff;
         border-radius:20px;
         padding-bottom:20px;
+        width: 100%;
         img{
             width: 100px;
             height: 100px;
@@ -332,7 +333,7 @@ nav{
             .cli2{
                 display: flex;
                 border-left:2px solid black;
-                width: 400px;
+                width: 100px;
                 height: 200px;
                 padding: 20px;
             }
@@ -386,7 +387,7 @@ nav{
         }
         .desc{
             flex-wrap: wrap;
-            width: 300px;
+            width: 100%;
             overflow: hidden;
             margin-left:0px;
         }
