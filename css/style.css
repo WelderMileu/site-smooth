@@ -193,12 +193,14 @@ nav .bars .border div {
 .body .info div:nth-child(1) h1 {
   font-size: 5em;
   text-transform: uppercase;
+  color: grey;
 }
 .body .info div:nth-child(1):before {
   content: "";
   width: 200px;
   height: 20px;
-  background: #000;
+  background: #f1f1f1;
+  border: 1px solid #9a6d62;
   border-radius: 30px;
   margin-left: 130px;
   transform: translateY(157px);
@@ -207,7 +209,7 @@ nav .bars .border div {
   content: "";
   width: 500px;
   height: 2px;
-  background: #000;
+  background: #9a6d62;
   border-radius: 30px;
   margin-top: 50px;
 }
@@ -243,19 +245,18 @@ nav .bars .border div {
   font-size: 1.2em;
 }
 .body .info div span {
-  height: 200px;
+  height: 130px;
 }
 .body .info div img {
   margin-bottom: 20px;
 }
 .body .info div button {
   width: 300px;
-  border: none;
+  border: 2px solid #9a6d62;
   padding: 15px 50px;
   margin-top: 15px;
-  background-color: #1da1f2;
   border-radius: 20px;
-  color: #fff;
+  color: #9a6d62;
   font-weight: 600;
   font-size: 1.2em;
   cursor: pointer;
@@ -323,7 +324,7 @@ nav .bars .border div {
     content: "";
     width: 150px;
     height: 20px;
-    background: #000;
+    background: #f1f1f1;
     border-radius: 20px;
     margin-left: 70px;
     transform: translateY(120px);
@@ -332,7 +333,7 @@ nav .bars .border div {
     content: "";
     width: 300px;
     height: 2px;
-    background: #000;
+    background: #9a6d62;
     border-radius: 30px;
     margin-top: 50px;
   }

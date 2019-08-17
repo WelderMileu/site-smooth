@@ -4,6 +4,8 @@
 $font-01:'Shadows Into Light', cursive;
 $font-02: 'Cabin Sketch', cursive;
 
+$color-merron : #9a6d62;
+
 *{
     margin: 0;
     padding: 0;
@@ -37,11 +39,11 @@ nav{
                 }
                 &:nth-child(5){
                     cursor: pointer;
-                    border:2px solid #9a6d62;
-                    color:#9a6d62;
+                    border:2px solid $color-merron;
+                    color: $color-merron;
                     border-radius: 20px;
                     a{
-                        color:#9a6d62;
+                        color: $color-merron;
                         font-weight: 600;
                     }
                 }
@@ -199,12 +201,14 @@ nav{
             h1{
                 font-size: 5em;
                 text-transform: uppercase;
+                color: grey;
             }
             &:before{
                 content: '';
                 width: 200px;
                 height: 20px;
-                background: #000;
+                background: #f1f1f1;
+                border:1px solid $color-merron;
                 border-radius:30px;
                 margin-left:130px;
                 transform: translateY(157px)
@@ -213,7 +217,7 @@ nav{
                 content: '';
                 width: 500px;
                 height: 2px;
-                background: #000;
+                background: $color-merron;
                 border-radius:30px;
                 margin-top:50px;
             }
@@ -249,19 +253,18 @@ nav{
                 font-size: 1.2em;
             }
             span{
-                height: 200px;
+                height: 130px;
             }
             img{
                 margin-bottom:20px;
             }
             button{
                 width: 300px;
-                border:none;
+                border:2px solid $color-merron;
                 padding:15px 50px;
                 margin-top: 15px;
-                background-color: #1da1f2;
                 border-radius: 20px;
-                color: #fff;
+                color: $color-merron;
                 font-weight: 600;
                 font-size: 1.2em;
                 cursor: pointer;
@@ -337,7 +340,7 @@ nav{
                     content: '';
                     width: 150px;
                     height: 20px;
-                    background: #000;
+                    background: #f1f1f1;
                     border-radius:20px;
                     margin-left:70px;
                     transform: translateY(120px)
@@ -346,7 +349,7 @@ nav{
                     content: '';
                     width: 300px;
                     height: 2px;
-                    background: #000;
+                    background: $color-merron;
                     border-radius:30px;
                     margin-top:50px;
                 }
