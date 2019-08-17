@@ -357,6 +357,16 @@ nav .bars .border div {
   .banner .cont .buscar {
     width: 75%;
   }
+
+  .colaboradores .title h1 {
+    font-size: 2em;
+  }
+  .colaboradores .desc {
+    flex-wrap: wrap;
+    width: 300px;
+    overflow: hidden;
+    margin-left: 0px;
+  }
 }
 @media only screen and (max-width: 800px) {
   .body .title h1 {
@@ -395,13 +405,38 @@ nav .bars .border div {
     width: 100%;
   }
 
-  .desc {
-    flex-wrap: wrap;
-    margin-left: 0;
+  .colaboradores .title h1 {
+    font-size: 2em;
   }
-  .desc div {
-    width: 50%;
+  .colaboradores .title:before {
+    content: "";
+    width: 150px;
+    height: 20px;
+    background: #f1f1f1;
+    border-radius: 20px;
+    margin-left: 70px;
+    transform: translateY(100px);
+  }
+  .colaboradores .title:after {
+    content: "";
+    width: 300px;
+    height: 2px;
+    background: black;
+    border-radius: 30px;
+    margin-top: 50px;
+  }
+  .colaboradores .desc {
+    flex-wrap: wrap;
+    width: 100%;
     overflow: hidden;
+    margin-left: 0px;
+    width: 250px;
+  }
+  .colaboradores .desc .cli1 span:nth-child(2) {
+    font-size: 12px;
+  }
+  .colaboradores .desc .cli2 span:nth-child(2) {
+    font-size: 12px;
   }
 }
 
