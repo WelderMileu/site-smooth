@@ -175,7 +175,7 @@ nav .bars .border div {
   margin: 10%;
 }
 .body .title h1 {
-  font-size: 5em;
+  font-size: 3em;
   text-transform: uppercase;
   color: grey;
 }
@@ -183,17 +183,17 @@ nav .bars .border div {
   content: "";
   width: 200px;
   height: 20px;
-  background: #f1f1f1;
-  border: 1px solid black;
+  background: grey;
+  border: 1px solid grey;
   border-radius: 30px;
   margin-left: 130px;
-  transform: translateY(157px);
+  transform: translateY(120px);
 }
 .body .title:after {
   content: "";
   width: 500px;
   height: 2px;
-  background: black;
+  background: grey;
   border-radius: 30px;
   margin-top: 50px;
 }
@@ -275,6 +275,9 @@ nav .bars .border div {
   grid-template-rows: 10% auto 30%;
   text-align: center;
   flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 20px;
+  padding-bottom: 20px;
 }
 .body .colaboradores img {
   width: 100px;
@@ -376,7 +379,7 @@ nav .bars .border div {
     content: "";
     width: 150px;
     height: 20px;
-    background: #f1f1f1;
+    background: grey;
     border-radius: 20px;
     margin-left: 70px;
     transform: translateY(120px);
@@ -385,7 +388,7 @@ nav .bars .border div {
     content: "";
     width: 300px;
     height: 2px;
-    background: black;
+    background: grey;
     border-radius: 30px;
     margin-top: 50px;
   }
@@ -412,7 +415,7 @@ nav .bars .border div {
     content: "";
     width: 150px;
     height: 20px;
-    background: #f1f1f1;
+    background: grey;
     border-radius: 20px;
     margin-left: 70px;
     transform: translateY(100px);
@@ -421,7 +424,7 @@ nav .bars .border div {
     content: "";
     width: 300px;
     height: 2px;
-    background: black;
+    background: grey;
     border-radius: 30px;
     margin-top: 50px;
   }
