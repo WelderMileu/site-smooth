@@ -267,6 +267,7 @@ nav .bars .border div {
   padding-left: 10px;
 }
 .body .colaboradores {
+  /* Problema ao deixar os usuarios lado a lado */
   margin-top: 200px;
   display: grid;
   grid-template-areas: auto auto auto;
@@ -290,26 +291,9 @@ nav .bars .border div {
   grid-column-end: 5;
   margin-bottom: 100px;
 }
-.body .colaboradores div:nth-child(2) {
-  display: grid;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  margin-bottom: 100px;
-}
-.body .colaboradores div:nth-child(3) {
-  display: grid;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  grid-column-start: 3;
-  grid-column-end: 5;
-  margin-bottom: 100px;
-}
 .body .colaboradores .desc {
   display: flex;
+  margin-left: 33%;
 }
 .body .colaboradores .desc .prof {
   margin: 10px;
@@ -327,13 +311,15 @@ nav .bars .border div {
 .body .colaboradores .desc .cli1 {
   display: flex;
   border-left: 2px solid black;
-  width: 500px;
+  width: 300px;
+  height: 200px;
   padding: 20px;
 }
 .body .colaboradores .desc .cli2 {
   display: flex;
   border-left: 2px solid black;
-  width: 500px;
+  width: 300px;
+  height: 200px;
   padding: 20px;
 }
 
