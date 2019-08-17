@@ -293,7 +293,7 @@ nav .bars .border div {
 }
 .body .colaboradores .desc {
   display: flex;
-  margin-left: 33%;
+  margin-left: 20%;
 }
 .body .colaboradores .desc .prof {
   margin: 10px;
@@ -311,14 +311,13 @@ nav .bars .border div {
 .body .colaboradores .desc .cli1 {
   display: flex;
   border-left: 2px solid black;
-  width: 300px;
+  width: 400px;
   height: 200px;
-  padding: 20px;
 }
 .body .colaboradores .desc .cli2 {
   display: flex;
   border-left: 2px solid black;
-  width: 300px;
+  width: 400px;
   height: 200px;
   padding: 20px;
 }
@@ -394,6 +393,15 @@ nav .bars .border div {
   .body .info div button {
     margin-top: 30px;
     width: 100%;
+  }
+
+  .desc {
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+  .desc div {
+    width: 50%;
+    overflow: hidden;
   }
 }
 
