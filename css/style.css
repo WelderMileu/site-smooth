@@ -284,7 +284,7 @@ nav .bars .border div {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  border-radius: 10%;
+  border-radius: 250px;
 }
 .body .colaboradores div:nth-child(1) {
   display: grid;
@@ -304,26 +304,32 @@ nav .bars .border div {
   text-align: left;
 }
 .body .colaboradores .desc .prof p {
+  color: blue;
   text-transform: uppercase;
   font-weight: 600;
 }
 .body .colaboradores .desc .prof span img {
   width: 50px;
-  height: 50px;
-  border-radius: 250px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 0px;
 }
 .body .colaboradores .desc .cli1 {
   display: flex;
   border-left: 2px solid black;
   width: 400px;
   height: 200px;
+  padding-bottom: 50px;
+  padding: 0px;
+  background-color: orange;
 }
 .body .colaboradores .desc .cli2 {
   display: flex;
   border-left: 2px solid black;
-  width: 100px;
+  width: 400px;
   height: 200px;
-  padding: 20px;
+  padding: 40px;
+  background-color: orange;
 }
 
 @media only screen and (max-width: 600px) {
@@ -431,10 +437,8 @@ nav .bars .border div {
   }
   .colaboradores .desc {
     flex-wrap: wrap;
-    width: 100%;
-    overflow: hidden;
-    margin-left: 0px;
     width: 250px;
+    overflow: hidden;
   }
   .colaboradores .desc .cli1 span:nth-child(2) {
     font-size: 12px;

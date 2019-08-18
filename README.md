@@ -30,3 +30,5 @@
 # Pendencia HTML
 
 - Fazer a parte dos colaborados a baixo dos parceiros
+
+- Arrumar o container de paula
