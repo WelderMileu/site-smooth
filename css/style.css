@@ -34,12 +34,12 @@ nav .menu ul li a {
 }
 nav .menu ul li:nth-child(5) {
   cursor: pointer;
-  border: 2px solid #9a6d62;
-  color: #9a6d62;
+  border: 2px solid #1da1f2;
+  color: #1da1f2;
   border-radius: 20px;
 }
 nav .menu ul li:nth-child(5) a {
-  color: #9a6d62;
+  color: #1da1f2;
   font-weight: 600;
 }
 nav .bars {
@@ -61,10 +61,7 @@ nav .bars .border div {
 }
 
 .banner {
-  background-image: url("../img/praia.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background: radial-gradient(#1da1f2, white);
   width: 100%;
   display: grid;
   grid-gap: 0px;
@@ -84,8 +81,7 @@ nav .bars .border div {
   text-align: center;
 }
 .banner .cont h1 b {
-  font-family: "Shadows Into Light", cursive, sans-serif;
-  color: grey;
+  color: blue;
   text-transform: uppercase;
   font-size: 2em;
   font-weight: bold;
@@ -102,16 +98,16 @@ nav .bars .border div {
 }
 .banner .cont .btn {
   width: 200px;
-  border: none;
+  border: 1px solid #1da1f2;
   padding: 15px 2px;
   border-radius: 20px;
   margin-top: 10px;
   margin-left: 20px;
-  color: white;
+  color: #1da1f2;
   font-weight: 600;
   cursor: pointer;
   font-size: 1.2em;
-  background: linear-gradient(-10deg, #0026ff, #ff0077, #ffe600);
+  background-color: #fff;
 }
 .banner .cont .buscar {
   display: flex;
@@ -315,21 +311,22 @@ nav .bars .border div {
   border-radius: 0px;
 }
 .body .colaboradores .desc .cli1 {
-  display: flex;
+  display: grid;
+  justify-content: space-between;
   border-left: 2px solid black;
   width: 400px;
   height: 200px;
   padding-bottom: 50px;
-  padding: 0px;
-  background-color: orange;
+  padding: 40px;
 }
 .body .colaboradores .desc .cli2 {
-  display: flex;
+  display: grid;
+  justify-content: space-between;
   border-left: 2px solid black;
   width: 400px;
   height: 200px;
   padding: 40px;
-  background-color: orange;
+  margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 600px) {
