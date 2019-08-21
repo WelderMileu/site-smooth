@@ -69,22 +69,19 @@ nav{
     }
 }
 .banner{
-    // background-image: url("../img/praia.jpg");
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-attachment: fixed;
-    background: radial-gradient(#1da1f2, #f1f1f1);
+    background-image: url("../img/pexels-photo-830891.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    // background: radial-gradient(#1da1f2, #f1f1f1);
     width: 100%;
     display: grid;
-    grid-gap: 0px;
-    grid-template-columns: 10% auto auto auto;
-    grid-template-rows: 10% auto 30%;
-    padding: 20px;
-    padding:2% 2% 2% 2%;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "sociais cont img";
+    padding: 15px;
     .cont{
-        display: grid;
-        grid-column-start: 3;
-        grid-column-end: 4;
+        grid-area: cont;
         justify-content: center;
         align-items: center;
         h1 {
@@ -106,6 +103,7 @@ nav{
             align-items: center;
             color:#fff;
             font-size: 1.2em;
+            text-shadow: 1px 1px 1px black;
         }
         .btn{
             width:200px;
@@ -152,9 +150,7 @@ nav{
     }
 
     .sociais{
-        display: grid;
-        grid-column-start: 1;
-        grid-column-end: 3;
+        grid-area: sociais;
         justify-content: left;
         align-items: right;
         ul{
@@ -179,6 +175,11 @@ nav{
                 }
             }
         }
+    }
+    .img{
+        grid-area: img;
+        width: 100%;
+        justify-content: center;
     }
 }
 
@@ -372,6 +373,9 @@ nav{
 }
 
 @media only screen and(max-width:800px){
+    .img{
+        display: none;
+    }
     .body{
         .info{
             flex-wrap: wrap;

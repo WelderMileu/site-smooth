@@ -61,19 +61,18 @@ nav .bars .border div {
 }
 
 .banner {
-  background: radial-gradient(#1da1f2, #f1f1f1);
+  background-image: url("../img/pexels-photo-830891.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   width: 100%;
   display: grid;
-  grid-gap: 0px;
-  grid-template-columns: 10% auto auto auto;
-  grid-template-rows: 10% auto 30%;
-  padding: 20px;
-  padding: 2% 2% 2% 2%;
+  grid-gap: 10px;
+  grid-template-areas: "sociais cont img";
+  padding: 15px;
 }
 .banner .cont {
-  display: grid;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-area: cont;
   justify-content: center;
   align-items: center;
 }
@@ -95,6 +94,7 @@ nav .bars .border div {
   align-items: center;
   color: #fff;
   font-size: 1.2em;
+  text-shadow: 1px 1px 1px black;
 }
 .banner .cont .btn {
   width: 200px;
@@ -138,9 +138,7 @@ nav .bars .border div {
   font-size: 1.3em;
 }
 .banner .sociais {
-  display: grid;
-  grid-column-start: 1;
-  grid-column-end: 3;
+  grid-area: sociais;
   justify-content: left;
   align-items: right;
 }
@@ -165,6 +163,11 @@ nav .bars .border div {
 }
 .banner .sociais ul li a i:hover {
   transform: scale(2);
+}
+.banner .img {
+  grid-area: img;
+  width: 100%;
+  justify-content: center;
 }
 
 .body {
@@ -344,6 +347,10 @@ nav .bars .border div {
   }
 }
 @media only screen and (max-width: 800px) {
+  .img {
+    display: none;
+  }
+
   .body .info {
     flex-wrap: wrap;
     /* css grid start */
