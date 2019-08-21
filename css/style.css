@@ -175,62 +175,30 @@ nav .bars .border div {
   text-transform: uppercase;
   color: grey;
 }
-.body .title:before {
-  content: "";
-  width: 200px;
-  height: 20px;
-  background: grey;
-  border: 1px solid grey;
-  border-radius: 30px;
-  margin-left: 130px;
-  transform: translateY(120px);
-}
-.body .title:after {
-  content: "";
-  width: 500px;
-  height: 2px;
-  background: grey;
-  border-radius: 30px;
-  margin-top: 50px;
-}
 .body .info {
+  /* css grid start */
+  width: 100%;
   display: grid;
-  grid-template-areas: auto auto auto auto auto;
-  grid-row-gap: 0;
-  grid-template-rows: 10% auto 30%;
-  text-align: center;
-  flex-wrap: wrap;
+  grid-gap: 10px;
+  grid-template-areas: "title title title title title title" "cont1 cont1 cont2 cont2 cont3 cont3";
+  width: 100%;
+  /* css grid end */
 }
 .body .info div:nth-child(1) {
-  display: grid;
   width: 100%;
-  grid-column-start: 1;
-  grid-column-end: 5;
-  margin-bottom: 20px;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 100px;
+  grid-area: title;
 }
 .body .info div:nth-child(2) {
-  display: grid;
   width: 100%;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  margin-bottom: 20px;
+  grid-area: cont1;
 }
 .body .info div:nth-child(3) {
-  display: grid;
   width: 100%;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  margin-bottom: 20px;
+  grid-area: cont2;
 }
 .body .info div:nth-child(4) {
-  display: grid;
   width: 100%;
-  grid-column-start: 3;
-  grid-column-end: 3;
-  margin-bottom: 20px;
+  grid-area: cont3;
 }
 .body .info div {
   padding: 20px;
@@ -249,7 +217,7 @@ nav .bars .border div {
   margin-bottom: 20px;
 }
 .body .info div button {
-  width: 300px;
+  width: 100%;
   border: 2px solid grey;
   padding: 15px 50px;
   margin-top: 15px;
@@ -376,61 +344,25 @@ nav .bars .border div {
   }
 }
 @media only screen and (max-width: 800px) {
+  .body .info {
+    flex-wrap: wrap;
+    /* css grid start */
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "title title" "cont1 cont1" "cont2 cont2" "cont3 cont3";
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .body .info button {
+    width: 100%;
+  }
+
   .body .title h1 {
     font-size: 3em;
-  }
-  .body .title:before {
-    content: "";
-    width: 150px;
-    height: 20px;
-    background: grey;
-    border-radius: 20px;
-    margin-left: 70px;
-    transform: translateY(120px);
-  }
-  .body .title:after {
-    content: "";
-    width: 300px;
-    height: 2px;
-    background: grey;
-    border-radius: 30px;
-    margin-top: 50px;
-  }
-  .body .info {
-    display: flex;
-    flex-wrap: wrap;
-    grid-template-areas: 10px 10px 10px 10px;
-    grid-template-rows: 0;
-  }
-  .body .info div {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-  }
-  .body .info div button {
-    margin-top: 30px;
-    width: 100%;
   }
 
   .colaboradores .title h1 {
     font-size: 2em;
-  }
-  .colaboradores .title:before {
-    content: "";
-    width: 150px;
-    height: 20px;
-    background: grey;
-    border-radius: 20px;
-    margin-left: 70px;
-    transform: translateY(100px);
-  }
-  .colaboradores .title:after {
-    content: "";
-    width: 300px;
-    height: 2px;
-    background: grey;
-    border-radius: 30px;
-    margin-top: 50px;
   }
   .colaboradores .desc {
     flex-wrap: wrap;
