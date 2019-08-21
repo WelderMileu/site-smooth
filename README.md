@@ -12,8 +12,6 @@
 
 - importar algumas fonts padrões para o site e defini-las
 
-- Arrumar a parte dos colaboradores **usar css grid**
-
 # Pendencia Javascript
 
 `SMOOTH-SCROOL JS`
@@ -26,6 +24,4 @@
 
 # Pendencia HTML
 
-- Fazer a parte dos colaborados a baixo dos parceiros
-
-- Arrumar o container de Paula
+- **null**
