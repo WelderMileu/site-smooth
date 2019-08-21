@@ -251,69 +251,55 @@ nav{
         }
     }
     .colaboradores{ /* Problema ao deixar os usuarios lado a lado */
-        margin-top: 200px;
-        display: grid;
-        grid-template-areas: auto auto auto;
-        grid-row-gap:0;
-        grid-template-rows: 10% auto 30%; 
-        text-align: center;
-        flex-wrap: wrap;
         background-color: #fff;
-        border-radius:20px;
-        padding-bottom:20px;
-        width: 100%;
-        img{
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-            border-radius: 250px;
-        }
-        div:nth-child(1){
-            display: grid;
-            width: 100%;
-            justify-content: center;
-            align-items: center;
-            grid-column-start: 1;
-            grid-column-end: 5;
-            margin-bottom: 100px;
+        padding: 20px 20px 100px 20px;
+        margin:100px 0px 100px 0px;
+        .title{
+            h1{
+                color:white;
+                text-shadow: 1px 1px 1px black;
+            }
         }
         .desc{
-            display: flex;
-            margin-left:20%;
-            .prof{
-                margin:10px;
-                text-align: left;
-                p{
-                    color: #1da1f2;
-                    text-transform: uppercase;
-                    font-weight: 600;
+            margin-top:100px;
+            display: grid;
+            grid-template-areas: "cont1 cont2";
+            div:nth-child(1){
+                grid-area: cont1;
+            }
+            div:nth-child(2){
+                grid-area: cont2;
+            }
+            span{
+                img{
+                    width: 200px;
+                    height: 200px;
+                    object-fit: cover;
+                    border-radius:10px;
+                    // border:2px solid black;
                 }
-                span{
+            }
+            .cli{
+                display: flex;
+                padding: 20px;
+                .prof{
+                    padding:10px;
                     img{
                         width: 50px;
                         height: 30px;
-                        object-fit: cover;
                         border-radius: 0px;
                     }
+                    p{
+                        color: #1da1f2;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        font-size: 1.2em;
+                        text-shadow: 1px 1px 1px black ;
+                    }
+                    span{
+                        color: grey;
+                    }
                 }
-            }
-            .cli1{
-                display: grid;
-                justify-content: space-between;
-                border-left:2px solid black;
-                width: 400px;
-                height:200px;
-                padding-bottom:50px;
-                padding:40px;
-            }
-            .cli2{
-                display: grid;
-                justify-content: space-between;
-                border-left:2px solid black;
-                width: 400px;
-                height: 200px;
-                padding: 40px;
-                margin-bottom:100px;
             }
         }
     }
@@ -457,19 +443,13 @@ nav{
             }
         }
         .desc{
+            width: 100%;
             flex-wrap: wrap;
-            width: 250px;
-            overflow: hidden;
-            .cli1{
-                span:nth-child(2){
-                    font-size: 12px;
-                }
-            }
-            .cli2{
-                span:nth-child(2){
-                    font-size: 12px;
-                }
-            }
+            // overflow: hidden;
+            display: grid;
+            grid-template-areas: 
+            'cont1 cont1'
+            'cont2 cont2';
         }
     }  
 }
