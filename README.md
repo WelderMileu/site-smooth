@@ -24,4 +24,4 @@
 
 # Pendencia HTML
 
-- **null**
+- Aumentar a imagem da amazon
