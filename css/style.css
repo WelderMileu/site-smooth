@@ -301,27 +301,36 @@ nav .bars .border div {
   margin-bottom: 100px;
 }
 .body .sobre {
+  width: 100%;
+  padding: 15px;
   margin-top: 100px;
   display: grid;
   grid-template-areas: "title title" "conte img";
+  flex-wrap: wrap;
 }
 .body .sobre div:nth-child(1) {
+  width: 100%;
   grid-area: title;
+  margin-bottom: 30px;
 }
 .body .sobre div:nth-child(2) {
-  display: grid;
+  width: 100%;
+  margin-top: 50px;
   grid-area: conte;
-  justify-content: center;
-  align-items: center;
 }
 .body .sobre div:nth-child(2) p {
   font-size: 1.2em;
 }
 .body .sobre div:nth-child(3) {
+  width: 100%;
   grid-area: img;
 }
 
 @media only screen and (max-width: 600px) {
+  .body .sobre .image img {
+    width: 300px;
+  }
+
   .nav-add {
     display: block;
     height: 250px;
@@ -379,9 +388,16 @@ nav .bars .border div {
     grid-gap: 10px;
     grid-template-areas: "title title" "cont1 cont1" "cont2 cont2" "cont3 cont3";
     width: 100%;
-    flex-wrap: wrap;
   }
   .body .info button {
+    width: 100%;
+  }
+  .body .sobre {
+    flex-wrap: wrap;
+    /* css grid start */
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "title title" "img img" "conte conte";
     width: 100%;
   }
 
