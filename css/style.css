@@ -177,6 +177,7 @@ nav .bars .border div {
   font-size: 3em;
   text-transform: uppercase;
   color: grey;
+  text-align: center;
 }
 .body .info {
   /* css grid start */
@@ -298,6 +299,26 @@ nav .bars .border div {
   height: 200px;
   padding: 40px;
   margin-bottom: 100px;
+}
+.body .sobre {
+  margin-top: 100px;
+  display: grid;
+  grid-template-areas: "title title" "conte img";
+}
+.body .sobre div:nth-child(1) {
+  grid-area: title;
+}
+.body .sobre div:nth-child(2) {
+  display: grid;
+  grid-area: conte;
+  justify-content: center;
+  align-items: center;
+}
+.body .sobre div:nth-child(2) p {
+  font-size: 1.2em;
+}
+.body .sobre div:nth-child(3) {
+  grid-area: img;
 }
 
 @media only screen and (max-width: 600px) {
