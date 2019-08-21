@@ -250,9 +250,11 @@ nav .bars .border div {
   grid-template-areas: "cont1 cont2";
 }
 .body .colaboradores .desc div:nth-child(1) {
+  width: 100%;
   grid-area: cont1;
 }
 .body .colaboradores .desc div:nth-child(2) {
+  width: 100%;
   grid-area: cont2;
 }
 .body .colaboradores .desc span img {
@@ -349,16 +351,6 @@ nav .bars .border div {
   .banner .cont .buscar {
     width: 75%;
   }
-
-  .colaboradores .title h1 {
-    font-size: 2em;
-  }
-  .colaboradores .desc {
-    flex-wrap: wrap;
-    width: 100%;
-    overflow: hidden;
-    margin-left: 0px;
-  }
 }
 @media only screen and (max-width: 800px) {
   .img {
@@ -393,10 +385,12 @@ nav .bars .border div {
     font-size: 2em;
   }
   .colaboradores .desc {
-    width: 100%;
-    flex-wrap: wrap;
     display: grid;
-    grid-template-areas: "cont1 cont1" "cont2 cont2";
+    grid-template-areas: "cont1" "cont2" !important;
+    justify-content: center;
+  }
+  .colaboradores .desc .cli {
+    display: block !important;
   }
 }
 
