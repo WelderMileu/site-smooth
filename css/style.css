@@ -320,6 +320,7 @@ nav .bars .border div {
 }
 .body .sobre div:nth-child(2) p {
   font-size: 1.2em;
+  text-align: justify;
 }
 .body .sobre div:nth-child(3) {
   width: 100%;
