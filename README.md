@@ -25,3 +25,4 @@
 # Pendencia HTML
 
 - Aumentar a imagem da amazon
+- Inserir a parte do contato a baixo dos colaboradores
