@@ -186,10 +186,17 @@ nav{
 .body{
     margin:10%;
     .title{
+        // h1{
+        //     font-size: 3em;
+        //     text-transform: uppercase;
+        //     color: grey;
+        //     text-align: center;
+        // }
         h1{
             font-size: 3em;
+            color:white;
+            text-shadow: 1px 1px 1px black;
             text-transform: uppercase;
-            color: grey;
             text-align: center;
         }
     }

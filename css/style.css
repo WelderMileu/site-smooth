@@ -175,8 +175,9 @@ nav .bars .border div {
 }
 .body .title h1 {
   font-size: 3em;
+  color: white;
+  text-shadow: 1px 1px 1px black;
   text-transform: uppercase;
-  color: grey;
   text-align: center;
 }
 .body .info {
