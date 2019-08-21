@@ -61,7 +61,7 @@ nav .bars .border div {
 }
 
 .banner {
-  background: radial-gradient(#1da1f2, white);
+  background: radial-gradient(#1da1f2, #f1f1f1);
   width: 100%;
   display: grid;
   grid-gap: 0px;
