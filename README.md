@@ -1,27 +1,24 @@
 # Observações
 
 - Utilizar o maximo de flexbox e css Grid
-- Colocar o projeto no github
 
 # Pendancias CSS
 
 `ICONES DO SOCIAIS`
+
 - Arrumar uma forma de fazer com  que nth-child e hover
   Uma forma de mudar a cor de cada icone quando o mause
   por cima.
 
 - importar algumas fonts padrões para o site e defini-las
 
-- Deixar o menu de forma responsiva
-
-- Deixar o banner de forma responsiva
-
-- Arrumar a parte dos colaboradores 
+- Arrumar a parte dos colaboradores **usar css grid**
 
 # Pendencia Javascript
 
 `SMOOTH-SCROOL JS`
-- Baixar o arquivo JS do smooth e ler a documentacão
+
+- **Baixar o arquivo JS do smooth-scroll** e ler a documentacão
   e usar na nossa aplicação, ele serve para o scroll
   suave do menu.
 
@@ -31,4 +28,4 @@
 
 - Fazer a parte dos colaborados a baixo dos parceiros
 
-- Arrumar o container de paula
+- Arrumar o container de Paula
