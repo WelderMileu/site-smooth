@@ -21,5 +21,10 @@
             expandir()
         });
     }
-    expandir()
+    expandir();
+
+    jQuery(function($){
+        $('#cel').mask('(999)9999-9999');
+        $('#tel').mask('(999)99999-9999');
+    })
 })();
