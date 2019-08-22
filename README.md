@@ -22,7 +22,8 @@
 
 - Colocar a toggle do menu menos agresiva
 
+- Arrumar o menu fixed
+
 # Pendencia HTML
 
 - Aumentar a imagem da amazon
-- Inserir a parte do contato a baixo dos colaboradores

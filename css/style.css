@@ -7,11 +7,16 @@
   font-family: "calibri", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #f1f1f1;
 }
 
 nav {
+  position: fixed;
   background-color: #f1f1f1;
   width: 100%;
   padding: 10px 30px;
@@ -32,13 +37,13 @@ nav .menu ul li a {
   font-weight: 500;
   text-transform: uppercase;
 }
-nav .menu ul li:nth-child(5) {
+nav .menu ul li:nth-child(6) {
   cursor: pointer;
   border: 2px solid #1da1f2;
   color: #1da1f2;
   border-radius: 20px;
 }
-nav .menu ul li:nth-child(5) a {
+nav .menu ul li:nth-child(6) a {
   color: #1da1f2;
   font-weight: 600;
 }
