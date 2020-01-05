@@ -66,14 +66,14 @@ nav .bars .border div {
 }
 
 .banner {
-  background-image: url("../img/pexels-photo-830891.jpeg");
+  background-image: url("../img/predio.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
   display: grid;
   grid-gap: 10px;
-  grid-template-areas: "sociais cont img";
+  grid-template-areas: "sociais cont";
   padding: 15px;
 }
 .banner .cont {
@@ -82,7 +82,7 @@ nav .bars .border div {
   align-items: center;
 }
 .banner .cont h1 {
-  text-align: center;
+  padding: 20px;
 }
 .banner .cont h1 b {
   color: blue;
@@ -168,11 +168,6 @@ nav .bars .border div {
 }
 .banner .sociais ul li a i:hover {
   transform: scale(2);
-}
-.banner .img {
-  grid-area: img;
-  width: 100%;
-  justify-content: center;
 }
 
 .body {

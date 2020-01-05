@@ -74,7 +74,7 @@ nav{
     }
 }
 .banner{
-    background-image: url("../img/pexels-photo-830891.jpeg");
+    background-image: url("../img/predio.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -83,16 +83,15 @@ nav{
     display: grid;
     grid-gap: 10px;
     grid-template-areas: 
-    "sociais cont img";
+    "sociais cont";
     padding: 15px;
     .cont{
         grid-area: cont;
         justify-content: center;
         align-items: center;
         h1 {
-            text-align: center;
+            padding: 20px;
             b{
-                // font-family: $font-02, sans-serif;
                 color:blue;
                 text-transform: uppercase;
                 font-size: 2em;
@@ -180,11 +179,6 @@ nav{
                 }
             }
         }
-    }
-    .img{
-        grid-area: img;
-        width: 100%;
-        justify-content: center;
     }
 }
 
